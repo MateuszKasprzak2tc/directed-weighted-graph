@@ -1,9 +1,15 @@
-public class Graph {
-    Vertex vertex;
-    Edge edge;
+import java.util.LinkedList;
+import java.util.List;
 
-    public void addEdge(edge.vertex.key, vertex.key, edge.weight){
+public class Graph {
+
+    List<Vertex> vertices  = new LinkedList<Vertex>();
+
+    public void addEdge(int key1, int key2, int weight){
         Edge newEdge = new Edge();
-        newEdge.vertex.key = 
+        do {
+            
+        }
+
     }
 }

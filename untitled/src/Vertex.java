@@ -1,9 +1,8 @@
+import java.util.LinkedList;
+import java.util.List;
+
 public class Vertex{
     int key;
-
-    public void edge(int key){
-        Vertex newVertex = new Vertex();
-        newVertex.key = key;
-    }
+    List<Edge> edges = new LinkedList<Edge>();
 
 }
