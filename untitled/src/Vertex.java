@@ -5,4 +5,6 @@ public class Vertex{
     int key;
     List<Edge> edges = new LinkedList<Edge>();
 
+
+
 }
